@@ -1,0 +1,133 @@
+{
+    "total_frames": 834,
+    "fps": 60.002,
+    "duration_seconds": 13.9,
+    "action_counts": {
+        "Backhand_Front": 417,
+        "Forehand_Front": 367,
+        "Recovery_Ready": 50
+    },
+    "action_percentages": {
+        "Backhand_Front": 50.0,
+        "Forehand_Front": 44.0,
+        "Recovery_Ready": 6.0
+    },
+    "num_segments": 10,
+    "segments": [
+        {
+            "action": "Backhand_Front",
+            "start_frame": 0,
+            "end_frame": 44,
+            "duration_frames": 45,
+            "duration_seconds": 0.75
+        },
+        {
+            "action": "Recovery_Ready",
+            "start_frame": 45,
+            "end_frame": 68,
+            "duration_frames": 24,
+            "duration_seconds": 0.4
+        },
+        {
+            "action": "Forehand_Front",
+            "start_frame": 69,
+            "end_frame": 186,
+            "duration_frames": 118,
+            "duration_seconds": 1.97
+        },
+        {
+            "action": "Backhand_Front",
+            "start_frame": 187,
+            "end_frame": 284,
+            "duration_frames": 98,
+            "duration_seconds": 1.63
+        },
+        {
+            "action": "Recovery_Ready",
+            "start_frame": 285,
+            "end_frame": 306,
+            "duration_frames": 22,
+            "duration_seconds": 0.37
+        },
+        {
+            "action": "Forehand_Front",
+            "start_frame": 307,
+            "end_frame": 441,
+            "duration_frames": 135,
+            "duration_seconds": 2.25
+        },
+        {
+            "action": "Backhand_Front",
+            "start_frame": 442,
+            "end_frame": 568,
+            "duration_frames": 127,
+            "duration_seconds": 2.12
+        },
+        {
+            "action": "Recovery_Ready",
+            "start_frame": 569,
+            "end_frame": 572,
+            "duration_frames": 4,
+            "duration_seconds": 0.07
+        },
+        {
+            "action": "Forehand_Front",
+            "start_frame": 573,
+            "end_frame": 686,
+            "duration_frames": 114,
+            "duration_seconds": 1.9
+        },
+        {
+            "action": "Backhand_Front",
+            "start_frame": 687,
+            "end_frame": 833,
+            "duration_frames": 147,
+            "duration_seconds": 2.45
+        }
+    ],
+    "avg_speed": 310.3222,
+    "peak_speed": 2010.1801,
+    "total_distance": 4313.3343,
+    "avg_path_efficiency": 0.2944,
+    "avg_stability_index": 0.9929,
+    "avg_recovery_distance": 0.1519,
+    "avg_stance_width": 0.0723,
+    "forehand_usage": 44.0,
+    "backhand_usage": 50.0,
+    "court_zone_coverage": {
+        "6": 26.62,
+        "7": 63.79,
+        "8": 9.59
+    },
+    "bps": 51.4,
+    "session_grade": "D",
+    "top_strengths": [
+        {
+            "metric": "stability",
+            "score": 99.3
+        },
+        {
+            "metric": "forehand_balance",
+            "score": 94.0
+        },
+        {
+            "metric": "recovery_speed",
+            "score": 84.8
+        }
+    ],
+    "top_weaknesses": [
+        {
+            "metric": "recovery_speed",
+            "score": 84.8
+        },
+        {
+            "metric": "path_efficiency",
+            "score": 29.4
+        },
+        {
+            "metric": "avg_speed",
+            "score": 15.5
+        }
+    ],
+    "pose_detection_rate": 1.0
+}

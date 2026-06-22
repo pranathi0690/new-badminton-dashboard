@@ -1,0 +1,11 @@
+streamlit
+streamlit-option-menu
+opencv-python
+numpy
+pandas
+plotly
+mediapipe
+scikit-learn
+imageio
+imageio-ffmpeg
+joblib
